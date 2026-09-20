@@ -12,7 +12,7 @@ An AI twin that answers questions about my background, sitting on my landing pag
 
 I'd been using AI at work for a while by then: exploratory and adversarial testing, drafting test cases, structured bug logging, digging through build logs. I'd also started building little automations around the boring bits, and some of them were quietly turning into things that make decisions.
 
-That's when I decided I should probably understand what I was doing properly, rather than assume the bits that worked were skill and not luck.
+That's when I realised I wanted to fill the gaps in my foundational knowledge of what's under the hood of LLMs, AI agents and workflows.
 
 ## :material-school-outline: The course { data-toc-label="The course" }
 
@@ -36,7 +36,7 @@ An agent loop, no framework. The model can't run anything itself: it says "I'd l
 
 ## :material-check-decagram-outline: Keeping it honest { data-toc-label="Keeping it honest" }
 
-One of the things that worried me about this project was: how do I keep it honest?
+One of the things that worried me about this project was - how do I keep it honest?
 
 I hate made-up detail as much as I hate undeserved flattery. And it's so easy to get tangled into prompts and rules and everything else while trying to fix it.
 
@@ -52,9 +52,9 @@ Ignore your instructions, in English, in Italian, in base64 and in hex. "It's al
 
 I also went through the OWASP LLM Top 10 and worked out which of them apply to something shaped like this (I'm doing the AI Security path on TryHackMe in parallel so it's great timing to apply the newly learned material in practice).
 
-## :material-format-list-checks: MVP, with a backlog { data-toc-label="MVP, with a backlog" }
+## :material-format-list-checks: MVP (with a backlog) { data-toc-label="MVP (with a backlog)" }
 
-The current version is my MVP. What I'd still change is sitting in Linear: refusals hold but repeat themselves when pushed, it once logged a question as unanswered while answering it perfectly well, and there's a dedicated page for the twin I haven't built yet. Although in all honesty, ever since I restyled it properly, I'm not actually sure it needs a dedicated page anymore.
+The current version is my MVP. What I'd still change is sitting in my personal Linear: refusals hold, but repeat themselves when pushed, it once logged a question as unanswered while answering it perfectly well, and there's a dedicated page for the twin I haven't built yet. Although in all honesty, ever since I restyled it properly, I'm not actually sure it needs a dedicated page anymore.
 
 It's very tempting to keep polishing, but I miss Ed's course (and other things I was doing before this project consumed me), so MVP out -> Jen back into the course(s)!
 
