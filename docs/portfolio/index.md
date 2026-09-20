@@ -6,6 +6,13 @@ Side projects and tools I've built end to end, across the stack. Most were built
 
 <div class="sj-cards" markdown>
 
+<a class="sj-card" href="ai-digital-twin/" markdown="span">
+<span class="sj-card-icon">:material-account-tie-voice-outline:</span>
+<span class="sj-card-title">AI Digital Twin</span>
+<span class="sj-card-desc" title="An agent that answers questions about my career background.">An agent that answers questions about my career background.</span>
+<span class="sj-card-meta">Python &middot; FastAPI &middot; OpenAI</span>
+</a>
+
 <a class="sj-card" href="living-stars/" markdown="span">
 <span class="sj-card-icon">:material-graph-outline:</span>
 <span class="sj-card-title">The Living Stars</span>

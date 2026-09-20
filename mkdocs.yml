@@ -68,6 +68,8 @@ nav:
   - Home: index.md
   - Portfolio:
     - portfolio/index.md
+    - AI & Agents:
+      - AI Digital Twin: portfolio/ai-digital-twin.md
     - Full Stack Apps:
       - The Living Stars (App): portfolio/living-stars.md
     - Sites:
