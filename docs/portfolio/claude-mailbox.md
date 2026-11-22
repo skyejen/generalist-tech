@@ -6,19 +6,19 @@ A postal service for my Claude projects. One project can tap another on the shou
 
 ## :material-lightbulb-on-outline: Why I built it { data-toc-label="Why I built it" }
 
-I run my life and my learning across several Claude projects: one for my to-dos, one for my AI study and portfolio, one for my app hub, and so on. Each project has its own threads, and threads inside one project can already message each other. Projects can't.
+I run my life and my learning across several Claude projects: one for my to-dos, one each for my AI and cybersecurity studies, one for my workouts, nutrition and general wellbeing, and so on. Each project has its own threads, and threads inside one project can already message each other. Projects can't.
 
-So I'd ended up as the postie. My to-do project would decide something belonged to my app hub project, I'd copy it across, the app hub would do the thing, and I'd copy the answer back. It worked, but I was the slowest, most forgetful part of the system.
+So I'd ended up as the postie. My to-do project would need to cooperate with another project on joint work, and I'd be copying and pasting between the two. I'm not huge on manual, avoidable work, so I decided to see if I could take myself out of the equation.
 
 ## :material-magnify: What didn't work { data-toc-label="What didn't work" }
 
-First we checked whether there was a native way. One project tried messaging another project's thread directly and got "not found". From inside a project thread, I could see my older Claude Code sessions but none of the project threads, so projects simply can't see each other.
+First we checked whether there was a native way. One project tried messaging another project's thread directly and got "not found". From inside a project thread, I could see my older Claude Code sessions but none of the project threads, so projects simply can't see each other. That makes total sense, as they're sandboxes, but I like trying things before I set out to build something from scratch.
 
 Options on the table:
 
-- **Linear tickets** as the mailbox. Out, because I'm on the free plan and a ticket per message would eat my issue limit.
-- **A Cloudflare Worker** acting as a message board, with a custom connector. Sexy, and it might let ChatGPT join in too, but it's a lot of building before I even know if the idea works.
-- **A GitHub repo** as the mailbox. Free, private, already connected to every project, and I get the history for nothing.
+- **Linear tickets** as the mailbox. Out, because I'm on the free plan and a ticket per message would eat my issue limit (I do really love Linear otherwise).
+- **A Cloudflare Worker** acting as a message board, with a custom connector. Sexy, and it might let ChatGPT join in too, but it's a lot of building before I even know if the idea works and is actually useful to me, rather than something I build purely on excitement. I'll admit I'm very much a "yes, it's maybe a one-time thing, but I really want it" person, but I try not to sign up for a multi-hour build and another subscription every time that mood strikes (emphasis on the *try*). (I do really want to bring ChatGPT in at some point, though, as there are a few things I use ChatGPT for specifically rather than Claude.)
+- **A GitHub repo** as the mailbox. Free, private, already connected to every project, and I get the history for nothing. I'd heard of people doing this before, too.
 
 The catch with all of them: Claude doesn't sit there listening. A thread only wakes up when something pokes it, so a mailbox nobody checks is just a drawer.
 
@@ -63,7 +63,7 @@ Wake and work are kept separate, so the inbox stays short and the history stays 
 
 ## :material-format-list-checks: What's next { data-toc-label="What's next" }
 
-The first two inboxes are live, and the rest of my projects are getting theirs with a copy-paste prompt from the repo's templates folder. The Cloudflare Worker version is still on the shelf, mostly because it could let ChatGPT join in, which I use a lot for visual stuff. Maybe one day.
+All my projects have their own inbox now, set up with a copy-paste prompt from the repo's templates folder. Next I want to see whether ChatGPT can join in, either through this setup or the Cloudflare Worker version that's still on the shelf.
 
 ## :material-robot-happy-outline: A note on AI { data-toc-label="A note on AI" }
 
