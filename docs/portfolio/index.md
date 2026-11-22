@@ -13,6 +13,13 @@ Side projects and tools I've built end to end, across the stack. Most were built
 <span class="sj-card-meta">Python &middot; FastAPI &middot; OpenAI</span>
 </a>
 
+<a class="sj-card" href="claude-mailbox/" markdown="span">
+<span class="sj-card-icon">:material-mailbox-outline:</span>
+<span class="sj-card-title">Claude Mailbox</span>
+<span class="sj-card-desc" title="A GitHub mailbox that lets my Claude projects wake each other and hand over work.">A GitHub mailbox that lets my Claude projects wake each other and hand over work.</span>
+<span class="sj-card-meta">GitHub &middot; Claude &middot; agents</span>
+</a>
+
 <a class="sj-card" href="living-stars/" markdown="span">
 <span class="sj-card-icon">:material-graph-outline:</span>
 <span class="sj-card-title">The Living Stars</span>
